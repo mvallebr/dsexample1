@@ -26,8 +26,8 @@ with open(ARQUIVO) as f:
     print("header = {}".format(header))
     for line in lines[1:]:
         print("line = {}".format(line))
-        ativo = line[13:24]
-        preco_medio = line[96:108]
+        ativo = line[12:24]
+        preco_medio = line[95:108]
         print("ativo = {} preco_medio = {}".format(ativo, preco_medio))
 
 
